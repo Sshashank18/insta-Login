@@ -3,7 +3,7 @@ import './App.css';
 
 const InstagramWordmark = () => (
   <img
-    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_wordmark_white.svg"
+    src="/instagram.png"
     alt="Instagram"
     className="insta-wordmark"
     draggable="false"
@@ -86,7 +86,7 @@ function App() {
             <div className="insta-line" />
           </div>
           <div className="insta-facebook-login">
-            <img src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png" alt="Facebook" />
+            <img src="/fb.svg" alt="Facebook" />
             <span>Log in with Facebook</span>
           </div>
           <a href="#" className="insta-forgot">Forgot password?</a>
@@ -98,9 +98,8 @@ function App() {
         <div className="insta-apps">
           <span>Get the app.</span>
           <div className="insta-app-buttons">
-            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english_en.png/9fc4bab7565b.png" alt="Get it on App Store" />
-            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english_en.png/6071ff4c484c.png" alt="Get it on Google Play" />
-            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_microsoft_english_en.png/3cd8a5c7c6b3.png" alt="Get it from Microsoft" />
+            <img src="/google.png" alt="Get it on Google Play" />
+            <img src="/microsoft.png" alt="Get it from Microsoft" />
           </div>
         </div>
       </div>
