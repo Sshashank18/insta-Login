@@ -1,0 +1,201 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.insta-bg {
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.insta-center {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.insta-box {
+  background: #000;
+  border: 1px solid #262626;
+  border-radius: 0;
+  width: 380px;
+  padding: 40px 40px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.insta-wordmark {
+  width: 175px;
+  height: 51px;
+  margin-bottom: 24px;
+  user-select: none;
+}
+
+.insta-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.insta-form input {
+  background: #121212;
+  border: 1px solid #262626;
+  border-radius: 3px;
+  padding: 9px 0 7px 8px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 6px;
+  outline: none;
+}
+.insta-form input:focus {
+  border: 1px solid #a8a8a8;
+}
+
+.insta-form button {
+  background: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.insta-form button:disabled {
+  background: #b2dffc;
+  cursor: not-allowed;
+}
+.insta-form button:hover:not(:disabled) {
+  background: #1877f2;
+}
+
+.insta-or {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 18px 0 18px 0;
+}
+.insta-or .insta-line {
+  flex: 1;
+  height: 1px;
+  background: #262626;
+}
+.insta-or span {
+  margin: 0 18px;
+  color: #a8a8a8;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.insta-facebook-login {
+  display: flex;
+  align-items: center;
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 14px;
+  justify-content: center;
+}
+.insta-facebook-login img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.insta-forgot {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.insta-signup-box {
+  background: #000;
+  border: 1px solid #262626;
+  border-radius: 0;
+  width: 380px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.insta-signup-box a {
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.insta-apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+.insta-app-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.insta-app-buttons img {
+  height: 40px;
+}
+
+.insta-failed-message {
+  text-align: center;
+}
+.insta-failed-message h2 {
+  color: #ed4956;
+  margin-bottom: 8px;
+}
+.insta-failed-message button {
+  background: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.insta-failed-message button:hover {
+  background: #1877f2;
+}
+
+@media (max-width: 600px) {
+  .insta-box, .insta-signup-box {
+    width: 100vw;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 32px 16px 16px 16px;
+  }
+  .insta-center {
+    margin-top: 0;
+  }
+}
